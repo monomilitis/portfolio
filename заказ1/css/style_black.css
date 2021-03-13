@@ -1,328 +1,346 @@
-body{
-	font-family: 'Ubuntu', sans-serif;
-	color: white;
-	font-size: 16px;
-	margin: 0;
-	padding: 0;
-	font-weight: 400px;
-	overflow-x:hidden;
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400px;
+    overflow-x: hidden;
 }
 
-div,p,input,button,form, span, a, ul, li{
-	box-sizing: border-box;
+div,
+p,
+input,
+button,
+form,
+span,
+a,
+ul,
+li {
+    box-sizing: border-box;
 }
 
-h1,h2,h3,h4,h5,h6 {
-	margin: 0;
-	font-family: 'Ubuntu', sans-serif;
-	font-weight: 900px;
-	text-transform: uppercase;
-}
-ul,li{
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-}
-h1{
-	font-size: 48px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900px;
+    text-transform: uppercase;
 }
 
-h2{
-	font-size:36px;
-	
+ul,
+li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
-footer{
-	background-color: black;
+h1 {
+    font-size: 48px;
 }
 
-.header{
-	background: #000;
-	background-attachment:fixed;
-	padding-top: 13px;
-	
-
-
-}
-
-.container{
-	width: 1160px;
-	margin:0 auto;
-}
-
-
-.nav{
-	display: flex;
-	align-items: center;
-	margin-bottom: 13px;
+h2 {
+    font-size: 36px;
 
 }
 
-.header a{
-	color: #fff;
+footer {
+    background-color: black;
 }
 
-.menu{
-	display: flex;
-	letter-spacing: 0.01em;
-	
-
-}
-
-.menu li{
-	line-height: 14px;
-	margin-right: 55px;
-}
-
-
-
-.menu li a{
-	
-	font-size: 12px;
-	text-decoration: none;
-	transition: all 0.5s ease;
-}
-
-.logo{
-	margin-right: 131px;
-}
-
-
-.menu li a:hover{
-	color: #0075E3;
-}
-
-.menu li a:active{
-	color: #0075E3;
-}
-
-.wrapper{
-	position: relative;
-	width: 100%
-	align-items:center;
-}
-
-
-
-.offer{
-	position	: absolute;
-	top			: 0px;
-	left		: 0;
-	width		: 100%;
-	margin-top: 340px;
-	
-
-}
-
-
-.offer p{
-	font-weight: 300px;
-	text-transform: uppercase;
-}
-
-.offer h1{
-	line-height: 129.02%;
-	margin-bottom: 52px;
-}
-
-.h1btn{
-	width: 460px;
-}
-
-.offer .CTA{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.aboutit{
-	background-color: #000;
-}
-
-.it{
-	
-	color:#fff;
-	display: flex;
-	justify-content: space-between;
-	align-items:center;
-	margin: 0 auto;
-	
-}
-
-.ittext{
-	margin-top: 70px;
-	width: 550px;
-	letter-spacing: 0.01em;
-
-}
-.ittext p{
-	margin-bottom: 30px;
-	font-size: 28px;
-	font-weight: lighter;
-	margin-top: 0px;
-	line-height: 41px;
-	letter-spacing: 0.04em;
-}
-
-.ittext h2{
-	color:#fff;
-	text-transform: none;
-	letter-spacing: 0.04em;
-}
-
-.slide1{
-	margin-top: 55px;
-	margin-bottom: 55px;
-}
-
-
-
-.umshk{
-	padding-top: 67px;
-	background: linear-gradient(180deg, rgba(7, 7, 7, 0.92) 11.46%, #060606 100%);
-	text-align: center;
-	margin: 0 auto;
-}
-
-.umshktxt h2{
-	
-	letter-spacing: 0.005em;
-}
-
-.umshktxt p{
-	margin: 28px auto;
-	max-width: 454px;
-	letter-spacing: 0.01em;
-	font-size: 20px;
-	font-weight: lighter;
-}
-
-.btn{
-	display: flex;
-	justify-content: space-between;
-	width: 312px;
-	margin: 0 auto;
+.header {
+    background: #000;
+    background-attachment: fixed;
+    padding-top: 13px;
 
 
 
 }
 
-.umshk img{
-	margin-top: 20px;
-	margin-bottom: 67px;
-}
-
-.btn1{
-	width: 131px;
-	position: relative;
+.container {
+    width: 1160px;
+    margin: 0 auto;
 }
 
 
+.nav {
+    display: flex;
+    align-items: center;
+    margin-bottom: 13px;
 
-.umhouse{
-	padding-top: 67px;
-	color: #00376B;
-	text-align: center;
 }
 
-.umhouse h2{
-	letter-spacing: 0.005em;
+.header a {
+    color: #fff;
 }
 
-.umhouse p{
-	margin: 28px auto;
-	max-width: 454px;
-	letter-spacing: 0.01em;
-	font-size: 20px;
-	font-weight: lighter;
-	color:#293B4D;
+.menu {
+    display: flex;
+    letter-spacing: 0.01em;
+
+
 }
 
-.umhouse img{
-	padding-top: 20px;
-	margin-bottom: 67px;
-}
-
-.usedsys{
-	background-color: black;
-	color:#fff;
-}
-
-.syscont{
-	padding-top: 90px;
-	text-align: center;
-}
-
-.sysp{
-	width: 550px;
-	margin: 45px auto;
-	font-size: 25px;
-	line-height: 31px;
-	display: flex;
-	align-items: center;
-	text-align: center;
-	letter-spacing: 0.055em;
-}
-
-.logosys{
-	display: flex;
-	justify-content: space-between;
-	width: 922px;
-	margin: 0 auto;
-	padding-bottom: 90px;
+.menu li {
+    line-height: 14px;
+    margin-right: 55px;
 }
 
 
-.footer{
 
-	display: flex;
-	justify-content: space-between;
-	font-size: 11px;
-	margin: 0 auto;
-}
+.menu li a {
 
-.footer h3{
-	color: white;
-	margin-top: 46px;
+    font-size: 12px;
+    text-decoration: none;
+    transition: all 0.5s ease;
 }
 
-.footer li{
-	margin-bottom: 19px;
-	
+.logo {
+    margin-right: 131px;
 }
 
-.footer li a{
-	color:white;
-	text-decoration: none;
-	transition: all 0.5s ease;
-	
+
+.menu li a:hover {
+    color: #0075E3;
 }
 
-.footpic{
-	margin-right: 50px;
+.menu li a:active {
+    color: #0075E3;
 }
 
-.fadress{
-	padding-left: 15px;
-	background: url(../img/umhouse/house.png) no-repeat center left;
-	background-size:contain;
+.wrapper {
+    position: relative;
+    width: 100% align-items:center;
 }
-.ftel{
-	padding-left: 15px;
-	background: url(../img/umhouse/phone.png) no-repeat center left;
-	background-size:contain;
+
+
+
+.offer {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    margin-top: 340px;
+
+
 }
-.femail{
-	padding-left: 15px;
-	background: url(../img/umhouse/email.png) no-repeat center left;
-	background-size:contain;
+
+
+.offer p {
+    font-weight: 300px;
+    text-transform: uppercase;
+}
+
+.offer h1 {
+    line-height: 129.02%;
+    margin-bottom: 52px;
+}
+
+.h1btn {
+    width: 460px;
+}
+
+.offer .CTA {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutit {
+    background-color: #000;
+}
+
+.it {
+
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.ittext {
+    margin-top: 70px;
+    width: 550px;
+    letter-spacing: 0.01em;
+
+}
+
+.ittext p {
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: lighter;
+    margin-top: 0px;
+    line-height: 41px;
+    letter-spacing: 0.04em;
+}
+
+.ittext h2 {
+    color: #fff;
+    text-transform: none;
+    letter-spacing: 0.04em;
+}
+
+.slide1 {
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+
+
+.umshk {
+    padding-top: 67px;
+    background: linear-gradient(180deg, rgba(7, 7, 7, 0.92) 11.46%, #060606 100%);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.umshktxt h2 {
+
+    letter-spacing: 0.005em;
+}
+
+.umshktxt p {
+    margin: 28px auto;
+    max-width: 454px;
+    letter-spacing: 0.01em;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    width: 312px;
+    margin: 0 auto;
+
+
+
+}
+
+.umshk img {
+    margin-top: 20px;
+    margin-bottom: 67px;
+}
+
+.btn1 {
+    width: 131px;
+    position: relative;
+}
+
+
+
+.umhouse {
+    padding-top: 67px;
+    color: #00376B;
+    text-align: center;
+}
+
+.umhouse h2 {
+    letter-spacing: 0.005em;
+}
+
+.umhouse p {
+    margin: 28px auto;
+    max-width: 454px;
+    letter-spacing: 0.01em;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #293B4D;
+}
+
+.umhouse img {
+    padding-top: 20px;
+    margin-bottom: 67px;
+}
+
+.usedsys {
+    background-color: black;
+    color: #fff;
+}
+
+.syscont {
+    padding-top: 90px;
+    text-align: center;
+}
+
+.sysp {
+    width: 550px;
+    margin: 45px auto;
+    font-size: 25px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.055em;
+}
+
+.logosys {
+    display: flex;
+    justify-content: space-between;
+    width: 922px;
+    margin: 0 auto;
+    padding-bottom: 90px;
+}
+
+
+.footer {
+
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    margin: 0 auto;
+}
+
+.footer h3 {
+    color: white;
+    margin-top: 46px;
+}
+
+.footer li {
+    margin-bottom: 19px;
+
+}
+
+.footer li a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s ease;
+
+}
+
+.footpic {
+    margin-right: 50px;
+}
+
+.fadress {
+    padding-left: 15px;
+    background: url(../img/umhouse/house.png) no-repeat center left;
+    background-size: contain;
+}
+
+.ftel {
+    padding-left: 15px;
+    background: url(../img/umhouse/phone.png) no-repeat center left;
+    background-size: contain;
+}
+
+.femail {
+    padding-left: 15px;
+    background: url(../img/umhouse/email.png) no-repeat center left;
+    background-size: contain;
 }
 
 form {
     width: 100%;
     background-color: black;
     color: #fff;
-} 
+}
 
 h3 {
     display: flex;
@@ -371,7 +389,7 @@ input[type=checkbox]:checked + label {
 
 .slider {
     position: relative;
-/*    border-radius: 8px;*/
+    /*    border-radius: 8px;*/
     height: 18px;
 }
 
@@ -420,7 +438,7 @@ output {
     display: flex;
     margin-top: 15px;
     margin-left: 5px;
-    
+
 }
 
 
@@ -443,7 +461,7 @@ output {
     cursor: pointer;
     background-color: #000;
     color: #fff;
-    
+
 }
 
 .minus:after {
@@ -518,7 +536,7 @@ output {
 .video_4,
 .control_1,
 .control_2,
-.control_3{
+.control_3 {
     display: flex;
     min-width: 280px;
     max-height: 37px;
@@ -543,7 +561,7 @@ output {
 
 .right .but {
     transform: translateY(-2px);
-} 
+}
 
 #but_l1,
 #but_l2,
@@ -553,7 +571,7 @@ output {
 #but_s2,
 #but_s3,
 #but_s4,
-#but_v1{
+#but_v1 {
     visibility: hidden;
 }
 
@@ -583,7 +601,7 @@ output {
 .safety_4,
 .video_2,
 .video_4,
-.control_2{
+.control_2 {
     transform: translateY(-5px);
 }
 
@@ -610,7 +628,7 @@ output {
 
 .btn1 {
     color: #414552;
-    
+
     border: 0;
     outline: none;
 
@@ -628,7 +646,7 @@ output {
     font-size: 18px;
     display: flex;
     margin-bottom: 30px;
-/*
+    /*
     top: 75%;
     left: 20%;
     position: absolute;
@@ -642,9 +660,9 @@ output {
 
 .submit {
     font-family: 'Roboto', sans-serif;
-    text-decoration : none;
+    text-decoration: none;
     font-size: 18px;
-/*
+    /*
     top: 85%;
     left: 20%;
     position: absolute;
@@ -663,7 +681,7 @@ output {
 #modal {
     color: #414552;
     display: none;
-    
+
 }
 
 .send {
@@ -682,7 +700,7 @@ output {
 
 .send__form {
     margin-left: 50px;
-    
+
     color: #414552;
     border: 0;
     outline: none;
@@ -693,76 +711,136 @@ output {
     width: 150px;
     cursor: pointer;
 }
-.calcul{
-    background:#000;
+
+.calcul {
+    background: #000;
 }
 
 
 /* 992px - 1200px */
 @media screen and (max-width: 1200px) {
-	.container {
-		width: 960px;
-	}
-	
-	.offer{
-		width: auto;
-	}
+    .container {
+        width: 960px;
+    }
 
-	.intro{
-		width: auto;
-	}
+    .offer {
+        width: auto;
+    }
 
-	
+    .intro {
+        width: auto;
+    }
+
+
 }
 
 /* 768px - 992px */
 @media screen and (max-width: 992px) {
-	.container {
-		width: 720px;
-}
-	.carts{
-		flex-direction: column;
-	}
-	.cart{
-		width: auto;
-		margin-bottom: 20px;
-	}
-	.col{
-		width: 350px;
+    .container {
+        width: 720px;
+    }
 
-	}
-	.col p{
-		width: auto;
-	}
+    .carts {
+        flex-direction: column;
+    }
+
+    .cart {
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    .col {
+        width: 350px;
+
+    }
+
+    .col p {
+        width: auto;
+    }
 
 
-/* 576px - 768px */
-@media screen and (max-width: 768px) {
-	.container {
-		width: 540px;
-	}
-	.robo{
-		width: 60%;
-	}
-	.col{
-		display: none;
-	}
-	.simg{
-		width: 60%;
-	}
-	.menu{
-		display: block;
-	}
-	
-}
+    /* 576px - 768px */
+    @media screen and (max-width: 768px) {
 
-/* 320px - 576px */
-@media screen and (max-width: 576px) {
-	.container {
-		width:90%;
-	}
-	.input{
-		width: 100%;
+        .container {
+            width: 540px;
+        }
 
-	}
-}
+        .robo {
+            width: 60%;
+        }
+
+        .col {
+            display: none;
+        }
+
+        .simg {
+            width: 60%;
+        }
+
+        .menu {
+            display: block;
+        }
+
+        .left,
+        .center,
+        .right {
+            width: 100%;
+
+        }
+
+        .light_2,
+        .curtains_2,
+        .climate_3,
+        .climate_4,
+        .safety_3,
+        .safety_4,
+        .video_3,
+        .video_4,
+        .control_3 {
+            padding-left: 0;
+        }
+
+        #light,
+        #curtains,
+        #climate,
+        #safety,
+        #video,
+        #control {
+            display: block;
+            width: 100%;
+        }
+
+        .center,
+        .right {
+            padding: 10% 0;
+        }
+
+        .calc {
+            display: block;
+            float: none;
+        }
+    }
+
+    /* 320px - 576px */
+    @media screen and (max-width: 576px) {
+        .container {
+            width: 90%;
+        }
+
+        .input {
+            width: 100%;
+
+        }
+
+        .left,
+        .center,
+        .right {
+            width: 100%;
+            float: none;
+        }
+
+        .left {
+            display: block;
+        }
+    }

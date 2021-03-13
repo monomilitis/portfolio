@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Доставка</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style_white.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
+	
+</head>
+<body>
+	<header class="header" id="header">
+		<div class="container">
+			<div class="nav">
+				<img src="img/logoblack.svg" alt="Veni" class="logo animated fadeInDown">
+				<ul class="menu animated fadeInDown">
+					<li>
+						<a href="index.html">
+							Главная
+						</a>
+					</li>
+					<li>
+						<a href="umward.html">
+							Умные шкафы
+						</a>
+					</li>
+					<li>
+						<a href="umhouse.html">
+							Умный дом
+						</a>
+					</li>
+					<li>
+						<a href="ship_pay.html">
+							Доставка
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Наши проекты
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							О компании
+						</a>
+					</li>
+					<li >
+						<a href="#" >
+							Контакты
+					</a>
+					</li>
+				</ul>
+			</div>
+	</header>
+	<section class="shipping" id="shipping">
+		<div class="container">
+			<div class="cart animated fadeIn">
+				<h2>
+					Доставка
+				</h2>
+				<div class="cont">
+					<img src="img/ship_pay/ship.jpg">
+					<div class="text">
+						<p>
+							Доставка бесплатная по городу Санкт-Петербург и Ленинградской области.
+						</p>
+						<p>
+							Доставка в другие регионы РФ: по договоренности с заказчиком.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="pays" id="pays">
+		<div class="container">
+			<div class="cart animated fadeIn">
+				<h2>
+					Оплата
+				</h2>
+				<div class="cont">
+					<img src="img/ship_pay/pay.jpg">
+					<div class="text">
+						<p>
+							Оплата производится оплатой счета на юр. лицо.
+						</p>
+						<p>
+							Реквизиты для оплаты:
+							Р/с: 40702810132030004769 
+							БИК: 044030786 
+							К/с: 30101810600000000786 
+							ФИЛИАЛ «САНКТ-ПЕТЕРБУРГСКИЙ» АО «АЛЬФА-БАНК» 
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="footer" id="footer">
+				<img src="img/logoblack.svg">
+				<div class="col">
+					<ul class="fotmenu">
+						<li>
+							<h4>
+								Наши контакты
+							</h4>
+						</li>
+						<li>
+							<a href="#" class="fadress">
+								Санкт-Петербург, Трефолева 2БН (бизнес центр Порт) офис 334	
+							</a>
+						</li>
+						<li>
+							<a href="#" class="ftel">
+								Номер телефона:  +78123175085
+							</a>
+						</li>
+						<li>
+							<a href="#" class="femail">
+								Email: info@veni.ru
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col">
+					<ul class="fotmenu">
+						<li>
+							<h4>
+								Основное
+							</h4>
+						</li>
+						<li>
+							<a href="index.html">Главная</a>	
+						</li>
+						<li>
+							<a href="#">Умные шкафы</a>
+						</li>
+						<li>
+							<a href="#">Умный дом</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col">
+					<ul class="fotmenu">
+						<li>
+							<h4>
+								Информация
+							</h4>
+						</li>
+						<li>
+							<a href="#">Доставка</a>
+						</li>
+						<li>	
+							<a href="#">Наши проекты</a>
+						</li>
+						<li>
+							<a href="#">О компании</a>
+						</li>
+						<li>
+							<a href="#">Контакты</a>
+						</li>
+					</ul>
+				</div>
+				<img src="img/Vector 1.svg" alt="" class="footpic" id="up">
+			</div>
+		</div>	
+	</footer>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script>
+    $(document).ready(function() {
+    
+    $('#CTA').click(function(){
+        $('html, body').animate({scrollDown:$(document).height()}, 'slow');
+        return false;
+    });
+ 
+});
+</script>
+<script>
+    $(document).ready(function() {
+    
+    $('#up').click(function(){
+        $('html, body').animate({scrollTop:$(document).height()}, 'slow');
+        return false;
+    });
+ 
+});
+</script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
